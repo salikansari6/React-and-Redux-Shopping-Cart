@@ -1,0 +1,23 @@
+.bill {
+  padding: 5rem;
+}
+
+.bill-heading {
+  padding: 1rem;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.total-price {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .bill {
+    padding: 4px;
+  }
+}

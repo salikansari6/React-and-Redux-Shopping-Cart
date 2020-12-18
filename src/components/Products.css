@@ -1,0 +1,10 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 576px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
